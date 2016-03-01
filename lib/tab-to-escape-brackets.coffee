@@ -2,7 +2,7 @@
 
 module.exports =
   subscriptions: null
-  brackets: /]|\)|}/
+  brackets: /]|\)|}|'|"/
 
   activate: ->
     @subscriptions = new CompositeDisposable
